@@ -42,9 +42,9 @@
 # //==============================================================================
 import rospy
 from ambf_client import Client
-import psm_arm
-import ecm_arm
-import scene
+from surgical_robotics_challenge import psm_arm
+from surgical_robotics_challenge import ecm_arm
+from surgical_robotics_challenge import scene
 import time
 from std_msgs.msg import Empty
 from sensor_msgs.msg import JointState
